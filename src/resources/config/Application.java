@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class Application {
     
-    public static String getKey(String key) throws IOException{
+    public String getKey(String key) throws IOException{
         Properties prop = new Properties();
 
         InputStream file = new FileInputStream("application.properties");
